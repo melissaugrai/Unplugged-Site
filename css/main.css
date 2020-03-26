@@ -143,6 +143,14 @@ address {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -170,6 +178,14 @@ footer {
 
 header {
   padding: 15px 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -215,9 +231,9 @@ header nav ul li {
 /* ----Hero Area--- */
 
 .hero-area {
-  /*background-image: url(../img/main-image.png);
-  background-size: 1200px 800px;
-  background-position: center;*/
+  background: url('../img/main-image.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -243,6 +259,8 @@ aside {
 /* ----Features--- */
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -270,10 +288,6 @@ aside {
 }
 
 /* ----Reviews--- */
-
-/*--.reviews img {
-  width: 93%;
-}*/
 
 .reviews {
   background-color: #2a423a;
@@ -545,6 +559,9 @@ input[type=button] {
   }
 
   /*-- hero Area--*/
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1 {
     font-size: 3em;
@@ -601,12 +618,13 @@ input[type=button] {
     justify-content: space-between;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
 
+
   /*-- footer --*/
-  footer {}
 
   footer h4 {
     font-size: 1.5em;
@@ -720,6 +738,16 @@ input[type=button] {
   }
 
   /*-- header--*/
+
+  header figure {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+
   header nav {
     width: 15%
   }
@@ -729,6 +757,11 @@ input[type=button] {
   }
 
   /*-- hero Area--*/
+
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     width: 60%;
     font-size: 3.75em;
@@ -769,6 +802,8 @@ input[type=button] {
   .reviews article div {
     width: 42%;
   }
+
+  /*--Footer --*/
 
   footer h4 {
     font-size: 1.875em;
