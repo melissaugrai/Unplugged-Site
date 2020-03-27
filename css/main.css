@@ -270,6 +270,13 @@ aside {
   margin-bottom: 60px;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .features article {
   width: 63%;
   margin: 30px 0;
@@ -605,6 +612,11 @@ input[type=button] {
   .features h2 {
     margin-bottom: 20px;
   }
+
+  .features i {
+    font-size: 4.5em;
+  }
+
 
   .features article {
     display: flex;
