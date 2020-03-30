@@ -339,7 +339,15 @@ footer .social-icons {
   align-items: center;
 }
 
+footer .social-icons p i {
+  font-size: 1.125em;
+}
+
 footer .social-icons p {
+  background-color: #527158;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -535,8 +543,10 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 
+
+/*------------Tablet styles---------------------*/
+
 @media only screen and (min-width: 768px) {
-  /*--Tablet styles--*/
 
   /*--Base styles --*/
 
@@ -676,11 +686,20 @@ input[type=button] {
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-
   }
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
+  footer .social {
+    display: flex;
+    flex-flow: column nowrap;
   }
 
   footer .copyright {
@@ -744,8 +763,12 @@ input[type=button] {
   }
 }
 
+
+/*-------Desktop styles-------*/
+
+
 @media only screen and (min-width: 1200px) {
-  /*--Desktop styles--*/
+
 
   header {
     padding: 15px 0;
