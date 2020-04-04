@@ -739,6 +739,10 @@ input[type=button] {
     flex-flow: column nowrap;
   }
 
+  footer .social h4 {
+    margin-top: 0;
+  }
+
   footer .copyright {
     width: 100%;
   }
